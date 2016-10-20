@@ -1,0 +1,10 @@
+# 开启mac terminal的颜色高亮
+vim ~/.bash_profile
+    export CLICOLOR=1export LSCOLORS=gxfxaxdxcxegedabagacad
+
+# 自动补全忽略大小写
+nano .inputrc
+    set completion-ignore-case on
+    set show-all-if-ambiguous on
+    TAB: menu-complete
+ 然后Control ＋ O， 保存，重启终端
